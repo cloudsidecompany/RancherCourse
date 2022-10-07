@@ -20,12 +20,12 @@
 
 #### Install k3s from script.
 
-  curl -sfL https://get.k3s.io | sh -s - server --cluster-init
+    curl -sfL https://get.k3s.io | sh -s - server --cluster-init
 
 #### Save the kubeconfig to your workstation
 
-  mkdir ~/.kube
-  sudo cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
+    mkdir ~/.kube
+    sudo cp /etc/rancher/k3s/k3s.yaml ~/.kube/config
   
 #### Edit the Rancher server URL in the kubeconfig
 
