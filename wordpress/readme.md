@@ -11,5 +11,15 @@
 
  * A running cluster k3s with rancher 2.6
 
-## Create Deployment 
+#### Create Deployment sample
 
+Create deployment from Cluster/workloads/deployments.
+
+    Image: rancher/hello-world:latest
+    Service NodePort (80)
+
+### Deploy Wordpress
+
+Create namespace 'stateless-wordpress'
+
+dfd
