@@ -20,6 +20,9 @@ Create deployment from Cluster/workloads/deployments.
 
 ### Deploy Wordpress
 
-Create namespace 'stateless-wordpress'
+ * Create Project "Wordpress"
+ * Create namespace "stateless-wordpress"
+ * Create namespace "stateful-wordpress"
 
-dfd
+
+wwewe
